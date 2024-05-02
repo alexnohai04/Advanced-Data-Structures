@@ -1,0 +1,21 @@
+﻿  2-3Heap.cpp
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(228,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(222,1): message : while compiling class template member function 'void Node23<T>::print(std::ostream &,unsigned int)'
+          with
+          [
+              T=int
+          ]
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(512,28): message : see the first reference to 'Node23<T>::print' in 'Heap23<int>::print'
+          with
+          [
+              T=int
+          ]
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(579,16): message : see the first reference to 'Heap23<int>::print' in 'main'
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(260,1): message : while compiling class template member function 'Node23<T> *Heap23<T>::insert(int,T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(571,17): message : see the first reference to 'Heap23<int>::insert' in 'main'
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(568,17): message : see reference to class template instantiation 'Heap23<int>' being compiled
+C:\Users\alex\source\repos\SD2\2-3Heap\2-3Heap.cpp(560): error C4703: potentially uninitialized local pointer variable 'next' used
